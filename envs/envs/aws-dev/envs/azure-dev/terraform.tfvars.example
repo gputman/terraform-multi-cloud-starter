@@ -1,0 +1,4 @@
+project_name    = "tf-multicloud"
+location        = "westus2"
+admin_username  = "azureuser"
+public_key_path = "~/.ssh/id_rsa.pub"
