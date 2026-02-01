@@ -12,3 +12,7 @@ Login with:
 - `az login`
 
 Terraform will use your Azure CLI session by default.
+## Safety / Cost Notes
+- Restrict SSH access by setting `allowed_ssh_cidr` to `YOUR_PUBLIC_IP/32` in `envs/aws-dev/variables.tf`
+- Always run `terraform plan` before `apply`
+- Always run `terraform destroy` when finished to avoid unexpected charges
